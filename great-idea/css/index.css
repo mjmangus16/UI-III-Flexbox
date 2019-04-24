@@ -165,7 +165,6 @@ h5 {
 
 body {
   max-width: 1100px;
-  min-width: 1099px;
   margin: auto;
 }
 
@@ -239,6 +238,9 @@ nav img {
   width: 250px;
   height: 35px;
   background: none;
+}
+
+button {
   box-shadow: 2px 3px 10px;
 }
 
