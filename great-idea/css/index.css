@@ -325,7 +325,7 @@ address {
 .content-wrapper div section {
   padding: 25px;
   border: 1px solid black;
-  width: 450px;
+  width: 45%;
   height: auto;
   background-color: lightgrey;
 }
@@ -359,6 +359,18 @@ address {
 }
 
 @media only screen and (max-width: 1100px) {
+  .heading div {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .heading button {
+    display: inline-block;
+    width: 250px;
+    height: 35px;
+    background: none;
+  }
+
   .content-wrapper div {
     display: flex;
     flex-direction: column;
@@ -370,5 +382,6 @@ address {
 
   .content-wrapper div section {
     margin-bottom: 25px;
+    width: 90%;
   }
 }
